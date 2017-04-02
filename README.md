@@ -1,4 +1,4 @@
-# uu
+# ffu
 
 CLI script for uploading code and performing other common operations on a remote server
 
@@ -6,55 +6,55 @@ CLI script for uploading code and performing other common operations on a remote
 
 ## Description
 
-`uu` is used to easily upload code, access SSH, and access a remote database on remote servers. It supports both FTP and SCP methods of code upload, and of course supports the use of public/private keys for connecting via SSH. It searches each successive parent directory for a `.uu` configuration file, allowing one to use it in any project directory. The `.uu` confige file should not be added to Git or other version control system as it is likely to contain sensitive information.
+`ffu` is used to easily upload code, access SSH, and access a remote database on remote servers. It supports both FTP and SCP methods of code upload, and of course supports the use of public/private keys for connecting via SSH. It searches each successive parent directory for a `.ffu` configuration file, allowing one to use it in any project directory. The `.ffu` confige file should not be added to Git or other version control system as it is likely to contain sensitive information.
 
 
 
-# Using uu
+# Using ffu
 
-## Confige uu
+## Confige ffu
 ```
-$ vim .uu
+$ vim .ffu
 ```
 
-## Instruct Git to ignore the uu configuration file.
+## Instruct Git to ignore the ffu configuration file.
 ```
-$ echo .uu >> .gitignore
-$ git commit -m "Ignore uu configuration file" .gitignore
+$ echo .ffu >> .gitignore
+$ git commit -m "Ignore ffu configuration file" .gitignore
 ```
 
 ## Upload code via ftp/scp
 ```
-$ uu up
+$ ffu up
 ```
 
 ## SSH into remote machine
 ```
-$ uu ssh
+$ ffu ssh
 ```
 
 ## SSH into remote machine and open DB CLI
 ```
-$ uu dbr
+$ ffu dbr
 ```
 
 ## Open DB CLI on local machine
 ```
-$ uu dbl
+$ ffu dbl
 ```
 
 
 
 ## FAQ
 
-### What does 'uu' stand for?
+### What does 'ffu' stand for?
 
-Unintrusive Uploader
+Fast File Uploader
 
 
 
 ## Contribute
 
-`uu` is developed on Github:  
-https://github.com/dotancohen/uu
+`ffu` is developed on Github:  
+https://github.com/dotancohen/ffu
 
