@@ -1,6 +1,6 @@
 {
-  "name": "fup",
-  "version": "0.0.4",
+  "name": "uu",
+  "version": "0.0.1",
   "description": "CLI script for uploading code and other operation on a remote server",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotancohen/fup.git"
+    "url": "git+https://github.com/dotancohen/uu.git"
   },
   "keywords": [
     "ftp",
@@ -22,7 +22,7 @@
   "author": "Dotan Cohen",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/dotancohen/fup/issues"
+    "url": "https://github.com/dotancohen/uu/issues"
   },
-  "homepage": "https://github.com/dotancohen/fup"
+  "homepage": "https://github.com/dotancohen/uu"
 }

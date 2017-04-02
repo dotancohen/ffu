@@ -1,1 +1,1 @@
-console.log("CLI script for uploading code and other operation on a remote server");
+console.log("CLI script for uploading code and performing other common operations on a remote server");
