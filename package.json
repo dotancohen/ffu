@@ -1,0 +1,28 @@
+{
+  "name": "fup",
+  "version": "0.0.1",
+  "description": "CLI script for uploading code and other operation on a remote server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotancohen/fup.git"
+  },
+  "keywords": [
+    "ftp",
+    "ssh",
+    "scp",
+    "server",
+    "publish",
+    "website",
+    "code"
+  ],
+  "author": "Dotan Cohen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dotancohen/fup/issues"
+  },
+  "homepage": "https://github.com/dotancohen/fup#readme"
+}
