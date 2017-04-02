@@ -1,6 +1,8 @@
 # fup
 
-CLI script for uploading code and other operation on a remote server
+CLI script for uploading code and performing other common operations on a remote server
+
+
 
 ## Description
 
@@ -13,6 +15,7 @@ CLI script for uploading code and other operation on a remote server
 ### What does 'fup' stand for?
 
 FTP Uploader
+
 
 
 ## Contribute
