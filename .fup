@@ -1,0 +1,35 @@
+
+# Local information
+
+local_build_command=''
+local_directories_to_upload=''
+
+local_database_host=''
+local_database_username=''
+local_database_password=''
+
+
+
+# Server information
+
+server_upload_via='ftp' # ftp/scp
+
+server_ip=''
+
+server_ftp_username=''
+server_ftp_password=''
+server_ftp_rootdir=''
+
+server_scp_username=''
+server_scp_password='' # Or cert
+server_ssh_cert='' # Or password
+server_scp_rootdir=''
+
+server_ssh_username=''
+server_ssh_password='' # Or cert
+server_ssh_cert='' # Or password
+
+server_database_host=''
+server_database_username=''
+server_database_password=''
+
