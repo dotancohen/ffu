@@ -1,7 +1,7 @@
 {
   "name": "ffu",
   "version": "0.0.1",
-  "description": "CLI script for uploading code and other operation on a remote server",
+  "description": "CLI script for uploading code and performing other common operations on a remote server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
